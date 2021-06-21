@@ -1,70 +1,38 @@
-# Unit 18 PWA Homework: Online/Offline Budget Trackers
+# Budget Tracker • ![This is the badge image](https://img.shields.io/badge/license-MIT-blue.svg)
 
-Add functionality to our existing Budget Tracker application to allow for offline access and functionality.
+  ## Table of Contents
 
-The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
+1. [Description](#description)
+2. [Installation](#installation)
+3. [Usage](#usage)
+4. [License](#license)
+5. [Contributing](#contributing)
+6. [Tests](#tests)
+7. [Questions](#questions)
 
-Offline Functionality:
+## [Description](#description)
+This application allows the user to track their spending with or without a data/internet connection. This application utilizes Javascript, HTML, CSS and ensures that data is saved in the cache in order to maintain offline functionality. 
 
-  * Enter deposits offline
+Deployed Application: https://safe-shelf-72233.herokuapp.com/
 
-  * Enter expenses offline
+![This is the gif for the app](Assets/budget_tracker.gif)
 
-When brought back online:
+## [Installation](#installation)
+To install necessary dependencies, run the following command: npm install, npm start
 
-  * Offline entries should be added to tracker.
+## [Usage](#usage)
+Reach out to me at bduran04@gmail.com!
 
-## User Story
-AS AN avid traveller
-I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
-SO THAT my account balance is accurate when I am traveling
+## [License](#license)![This is the badge image](https://img.shields.io/badge/license-MIT-blue.svg)
+This project is licensed under: 
+[MIT](https://choosealicense.com/licenses/mit/)
 
-## Business Context
+## [Contributing](#contributing)
+Reach out to me at bduran04@gmail.com
 
-Giving users a fast and easy way to track their money is important, but allowing them to access that information anytime is even more important. Having offline functionality is paramount to our applications success.
+## [Tests](#tests)
+N/A
 
+## [Questions](#questions)
+If you have questions, you can reach me at bduran04@gmail.com. You can find more of my work at [bduran04](https://github.com/bduran04)
 
-## Acceptance Criteria
-GIVEN a user is on Budget App without an internet connection
-WHEN the user inputs a withdrawal or deposit
-THEN that will be shown on the page, and added to their transaction history when their connection is back online.
-
-- - -
-
-## Commit Early and Often
-
-* One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
-
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
-
-2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
-
-* Follow these guidelines for committing:
-
-  * Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
-
-  * Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
-
-  * Don't commit half done work, for the sake of your collaborators (and your future self!)
-
-  * Test your application before you commit to ensure functionality at every step in the development process
-
-* We would like you to have well over 200 commits by graduation, so commit early and often!
-
-* Deploy your application with [Heroku and MongoDB Atlas.](../04-Important/MongoAtlas-Deploy.md)
-
-## Submission on BCS
-
-* You are required to submit the following:
-
-  * the URL to the deployed application
-
-  * the URL to the Github repository
-
-- - -
-
-## Hint
-
-* In order to cache dynamic content, i.e. users' inputs for withdrawals or deposits, incorporate `indexedDB` from the previous module.
-
-* Use [Google](https://www.google.com) or another search engine to research this topic.
